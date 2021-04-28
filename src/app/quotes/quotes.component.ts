@@ -14,7 +14,6 @@ export class QuotesComponent
   downvote = "Downvoted";
 
   
-  
   addQuote()
   {
     this.quoteCount++;
@@ -41,8 +40,9 @@ export class QuotesComponent
   createQuote()
   {
     //Build an array of created quotes    
-    this.quote ="Quote1";
-  }
+    this.quote = "quote" + this.quoteCount;
+  
+    }
    
 }
 
